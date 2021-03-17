@@ -39,17 +39,25 @@
 #   print('短い')
 
 # 関数
-# def title(arg):
-#     title_status = arg
+def title(arg):
+    title_status = arg
 
-#     if (title_status < 10):
-#         return 'まだ大丈夫'
-#     else:
-#         return 'やばい'
+    if (title_status < 10):
+        return 'まだ大丈夫'
+    else:
+        return 'やばい'
 
 # print(title(12))
 
 
 # list
 title_list = ['title_small', 'title_medium', 'title_large']
-print(title_list[0])
+# print(title_list[0])
+
+
+# for
+# for index in range(11):
+#     print(title(index))
+
+for item in title_list:
+  print(item)
