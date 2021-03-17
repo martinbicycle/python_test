@@ -69,22 +69,31 @@
 
 
 # classとインスタンス
-class Card:
-    def __init__(self, date, user_name):
-        self.date = date
-        self.user_name = user_name
+# class Card:
+#     def __init__(self, date, user_name):
+#         self.date = date
+#         self.user_name = user_name
 
-    def message(self):
-        return 'この投稿は' + self.user_name + 'さんが' + self.date + 'に投稿しました'
+#     def message(self):
+#         return 'この投稿は' + self.user_name + 'さんが' + self.date + 'に投稿しました'
 
 
-date_a = '2021-01-01'
-user_name_a = 'Taro'
+# date_a = '2021-01-01'
+# user_name_a = 'Taro'
 
-card_a = Card(date_a, user_name_a)
+# card_a = Card(date_a, user_name_a)
 
-date_b = '2021-01-03'
-user_name_b = 'risa'
-card_b = Card(date_b, user_name_b)
+# date_b = '2021-01-03'
+# user_name_b = 'risa'
+# card_b = Card(date_b, user_name_b)
 
-print(card_b.message())
+# print(card_b.message())
+
+#import
+# import math
+# print(math.pi)
+
+import numpy
+
+numpy_list = [3, 1, 5, 10, 2093, 304, 103]
+print(numpy.sum(numpy_list))
