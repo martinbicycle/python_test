@@ -67,6 +67,15 @@
 # with open('./title.txt', 'r') as file:
 #   print(file.read())
 
+#while文
+time = 60
+while time>0:
+  print('残り', time, '秒')
+  time-= 1
+
+print('試合終了')
+
+
 
 # classとインスタンス
 # class Card:
@@ -93,7 +102,7 @@
 # import math
 # print(math.pi)
 
-import numpy
+# import numpy
 
-numpy_list = [3, 1, 5, 10, 2093, 304, 103]
-print(numpy.sum(numpy_list))
+# numpy_list = [3, 1, 5, 10, 2093, 304, 103]
+# print(numpy.sum(numpy_list))
