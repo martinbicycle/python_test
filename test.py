@@ -24,6 +24,11 @@
 # title_problem = False
 # print(title_problem)
 
+first_name = "太郎"
+last_name = "佐藤"
+full_name = last_name + first_name
+print(full_name)
+
 # 条件分岐と関係演算子
 # if else elif
 # ==, !=, <, >, >=, <=
@@ -67,14 +72,13 @@
 # with open('./title.txt', 'r') as file:
 #   print(file.read())
 
-#while文
-time = 60
-while time>0:
-  print('残り', time, '秒')
-  time-= 1
+# while文
+# time = 60
+# while time > 0:
+#     print('残り', time, '秒')
+#     time -= 1
 
-print('試合終了')
-
+# print('試合終了')
 
 
 # classとインスタンス
@@ -98,7 +102,7 @@ print('試合終了')
 
 # print(card_b.message())
 
-#import
+# import
 # import math
 # print(math.pi)
 
