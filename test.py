@@ -30,10 +30,10 @@
 # print(full_name)
 
 
-#format文
-animal = 'cat'
+# format文
+# animal = 'cat'
 
-print('This is {}.'.format(animal))
+# print('This is {}.'.format(animal))
 
 # 条件分岐と関係演算子
 # if else elif
@@ -62,8 +62,10 @@ print('This is {}.'.format(animal))
 
 
 # list
-# title_list = ['title_small', 'title_medium', 'title_large']
+title_list = ['title_small', 'title_medium', 'title_large']
 # print(title_list[0])
+for index, lis in enumerate(title_list):
+    print(index, ':', lis)
 
 
 # for
