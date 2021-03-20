@@ -24,10 +24,16 @@
 # title_problem = False
 # print(title_problem)
 
-first_name = "太郎"
-last_name = "佐藤"
-full_name = last_name + first_name
-print(full_name)
+# first_name = "太郎"
+# last_name = "佐藤"
+# full_name = last_name + first_name
+# print(full_name)
+
+
+#format文
+animal = 'cat'
+
+print('This is {}.'.format(animal))
 
 # 条件分岐と関係演算子
 # if else elif
